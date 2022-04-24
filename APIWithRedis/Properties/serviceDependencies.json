@@ -2,6 +2,10 @@
   "dependencies": {
     "secrets1": {
       "type": "secrets"
+    },
+    "redis1": {
+      "type": "redis",
+      "connectionId": "RedisConnectionString"
     }
   }
 }
