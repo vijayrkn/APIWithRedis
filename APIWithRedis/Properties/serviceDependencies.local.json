@@ -2,14 +2,6 @@
   "dependencies": {
     "secrets1": {
       "type": "secrets.user"
-    },
-    "redis1": {
-      "containerPorts": "6379:6379",
-      "secretStore": "LocalSecretsFile",
-      "containerName": "redis",
-      "containerImage": "redis:alpine",
-      "type": "redis.container",
-      "connectionId": "RedisConnectionString"
     }
   }
 }
